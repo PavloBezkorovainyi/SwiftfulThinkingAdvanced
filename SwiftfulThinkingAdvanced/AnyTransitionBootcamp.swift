@@ -34,7 +34,7 @@ extension AnyTransition {
       active: RotateViewModifier(rotation: rotation),
       identity: RotateViewModifier(rotation: 0)
     )
-  }
+  } 
   
   static var rotateOn: AnyTransition {
      asymmetric(
