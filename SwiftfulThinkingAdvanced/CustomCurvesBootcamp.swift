@@ -9,12 +9,13 @@ import SwiftUI
 
 struct CustomCurvesBootcamp: View {
   var body: some View {
-    WaterShape()
+    ShapeWithArc()
+      .stroke(lineWidth: 5)
       .fill(
         LinearGradient(colors: [.purple, .blue, .cyan], startPoint: .topLeading, endPoint: .bottomTrailing)
       )
-//      .stroke(lineWidth: 5)
-//      .frame(width: 200, height: 200)
+      
+      .frame(width: 200, height: 200)
       .ignoresSafeArea()
   }
 }

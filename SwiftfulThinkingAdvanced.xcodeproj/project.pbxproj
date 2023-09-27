@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D08477742AC0E63600F4C0F2 /* AnimationDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08477732AC0E63600F4C0F2 /* AnimationDataBootcamp.swift */; };
 		D0A72DA62ABFBED000DAD8E9 /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A72DA52ABFBED000DAD8E9 /* MatchedGeometryEffectBootcamp.swift */; };
 		D0A72DA82ABFC6A500DAD8E9 /* CustomShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A72DA72ABFC6A500DAD8E9 /* CustomShapesBootcamp.swift */; };
 		D0A72DAA2ABFDA2C00DAD8E9 /* CustomCurvesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A72DA92ABFDA2C00DAD8E9 /* CustomCurvesBootcamp.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D08477732AC0E63600F4C0F2 /* AnimationDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDataBootcamp.swift; sourceTree = "<group>"; };
 		D0A72DA52ABFBED000DAD8E9 /* MatchedGeometryEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectBootcamp.swift; sourceTree = "<group>"; };
 		D0A72DA72ABFC6A500DAD8E9 /* CustomShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesBootcamp.swift; sourceTree = "<group>"; };
 		D0A72DA92ABFDA2C00DAD8E9 /* CustomCurvesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesBootcamp.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				D0A72DA52ABFBED000DAD8E9 /* MatchedGeometryEffectBootcamp.swift */,
 				D0A72DA72ABFC6A500DAD8E9 /* CustomShapesBootcamp.swift */,
 				D0A72DA92ABFDA2C00DAD8E9 /* CustomCurvesBootcamp.swift */,
+				D08477732AC0E63600F4C0F2 /* AnimationDataBootcamp.swift */,
 				D0F4BDA32AB2627A00A99978 /* Assets.xcassets */,
 				D0F4BDA52AB2627A00A99978 /* Preview Content */,
 			);
@@ -157,6 +160,7 @@
 				D0F4BDB22AB28E0300A99978 /* AnyTransitionBootcamp.swift in Sources */,
 				D0F4BDA02AB2627A00A99978 /* SwiftfulThinkingAdvancedApp.swift in Sources */,
 				D0A72DA62ABFBED000DAD8E9 /* MatchedGeometryEffectBootcamp.swift in Sources */,
+				D08477742AC0E63600F4C0F2 /* AnimationDataBootcamp.swift in Sources */,
 				D0A72DA82ABFC6A500DAD8E9 /* CustomShapesBootcamp.swift in Sources */,
 				D0A72DAA2ABFDA2C00DAD8E9 /* CustomCurvesBootcamp.swift in Sources */,
 			);
