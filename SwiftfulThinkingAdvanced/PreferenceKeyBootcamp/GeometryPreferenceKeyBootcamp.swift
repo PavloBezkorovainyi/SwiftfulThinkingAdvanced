@@ -40,7 +40,13 @@ struct GeometryPreferenceKeyBootcamp_Previews: PreviewProvider {
 }
 
 struct RectangleGeometrySizePreferenceKey: PreferenceKey {
+  static func reduce(value: inout CGSize, nextValue: () -> CGSize) {
+    value = nextValue()
+  }
+  
   static var defaultValue: CGSize = .zero
+  
+  
 }
 
 
