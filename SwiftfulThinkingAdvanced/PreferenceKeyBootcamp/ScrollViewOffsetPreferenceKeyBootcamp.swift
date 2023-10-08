@@ -11,6 +11,21 @@ struct ScrollViewOffsetPreferenceKey: PreferenceKey {
   static var defaultValue: CGFloat = 0
 }
 
+extension View {
+  func onScrollViewOffSetChanged(action: @escaping(_ offset: CGFloat) -> Void) -> some View {
+    self
+      .background(
+        GeometryReader { geo in
+          Text("")
+            .preference(key: ScrollViewOffsetPreferenceKey.self, value: geo.frame(in: .global).minY)
+        }
+      )
+      .onPreferenceChange(ScrollViewOffsetPreferenceKey.self) { value in
+        action(value)
+      }
+  }
+}
+
 struct ScrollViewOffsetPreferenceKeyBootcamp: View {
   
   let title: String = "New title here!!!"
@@ -22,21 +37,14 @@ struct ScrollViewOffsetPreferenceKeyBootcamp: View {
         VStack {
           titleLayer
             .opacity(Double(scrollViewOffset / 75))
-            .background(
-              GeometryReader { geo in
-                Text("")
-                  .preference(key: ScrollViewOffsetPreferenceKey.self, value: geo.frame(in: .global).minY)
-              }
-            )
-          
+            .onScrollViewOffSetChanged { offset in
+              scrollViewOffset = offset
+            }
           contentLayer
         }
         .padding()
       }
       .overlay(Text("\(scrollViewOffset)"))
-      .onPreferenceChange(ScrollViewOffsetPreferenceKey.self) { value in
-        scrollViewOffset = value
-      }
       .overlay(navBarLayer.padding(.top)
         .opacity(scrollViewOffset < 50 ? 1.0 : 0)
                , alignment: .top)
@@ -44,6 +52,8 @@ struct ScrollViewOffsetPreferenceKeyBootcamp: View {
     }
   }
 }
+
+
 
 struct ScrollViewOffsetPreferenceKeyBootcamp_Previews: PreviewProvider {
   static var previews: some View {
