@@ -12,7 +12,7 @@ struct CustomCurvesBootcamp: View {
     ShapeWithArc()
       .stroke(lineWidth: 5)
       .fill(
-        LinearGradient(colors: [.purple, .blue, .cyan], startPoint: .topLeading, endPoint: .bottomTrailing)
+        LinearGradient(colors: [.purple, .blue], startPoint: .topLeading, endPoint: .bottomTrailing)
       )
       
       .frame(width: 200, height: 200)

@@ -14,6 +14,13 @@
 		D09443502AD25260000D2602 /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D094434F2AD25260000D2602 /* CustomTabBarContainerView.swift */; };
 		D09443522AD255EF000D2602 /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09443512AD255EF000D2602 /* TabBarItemsPreferenceKey.swift */; };
 		D09443542AD25949000D2602 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09443532AD25949000D2602 /* TabBarItem.swift */; };
+		D09443572AD2780C000D2602 /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09443562AD2780C000D2602 /* AppNavBarView.swift */; };
+		D094435A2AD27853000D2602 /* NavigationBackport in Frameworks */ = {isa = PBXBuildFile; productRef = D09443592AD27853000D2602 /* NavigationBackport */; };
+		D094435C2AD279E8000D2602 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D094435B2AD279E8000D2602 /* CustomNavBarView.swift */; };
+		D094435E2AD280D2000D2602 /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D094435D2AD280D2000D2602 /* CustomNavBarContainerView.swift */; };
+		D09443602AD283C1000D2602 /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D094435F2AD283C1000D2602 /* CustomNavView.swift */; };
+		D09443622AD2859F000D2602 /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09443612AD2859F000D2602 /* CustomNavLink.swift */; };
+		D09443642AD28BFE000D2602 /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09443632AD28BFE000D2602 /* CustomNavBarPreferenceKeys.swift */; };
 		D0A72DA62ABFBED000DAD8E9 /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A72DA52ABFBED000DAD8E9 /* MatchedGeometryEffectBootcamp.swift */; };
 		D0A72DA82ABFC6A500DAD8E9 /* CustomShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A72DA72ABFC6A500DAD8E9 /* CustomShapesBootcamp.swift */; };
 		D0A72DAA2ABFDA2C00DAD8E9 /* CustomCurvesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A72DA92ABFDA2C00DAD8E9 /* CustomCurvesBootcamp.swift */; };
@@ -37,6 +44,12 @@
 		D094434F2AD25260000D2602 /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
 		D09443512AD255EF000D2602 /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
 		D09443532AD25949000D2602 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		D09443562AD2780C000D2602 /* AppNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
+		D094435B2AD279E8000D2602 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		D094435D2AD280D2000D2602 /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
+		D094435F2AD283C1000D2602 /* CustomNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		D09443612AD2859F000D2602 /* CustomNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		D09443632AD28BFE000D2602 /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 		D0A72DA52ABFBED000DAD8E9 /* MatchedGeometryEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectBootcamp.swift; sourceTree = "<group>"; };
 		D0A72DA72ABFC6A500DAD8E9 /* CustomShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesBootcamp.swift; sourceTree = "<group>"; };
 		D0A72DA92ABFDA2C00DAD8E9 /* CustomCurvesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesBootcamp.swift; sourceTree = "<group>"; };
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D094435A2AD27853000D2602 /* NavigationBackport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,19 @@
 				D07F35D92ACE187100F73A1F /* ScrollViewOffsetPreferenceKeyBootcamp.swift */,
 			);
 			path = PreferenceKeyBootcamp;
+			sourceTree = "<group>";
+		};
+		D09443552AD277F8000D2602 /* CustomNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				D09443562AD2780C000D2602 /* AppNavBarView.swift */,
+				D094435F2AD283C1000D2602 /* CustomNavView.swift */,
+				D094435B2AD279E8000D2602 /* CustomNavBarView.swift */,
+				D094435D2AD280D2000D2602 /* CustomNavBarContainerView.swift */,
+				D09443612AD2859F000D2602 /* CustomNavLink.swift */,
+				D09443632AD28BFE000D2602 /* CustomNavBarPreferenceKeys.swift */,
+			);
+			path = CustomNavBar;
 			sourceTree = "<group>";
 		};
 		D0F4BD932AB2627A00A99978 = {
@@ -105,6 +132,7 @@
 				D0EC934A2ACA81EF00471DC0 /* ViewBuilderBootcamp.swift */,
 				D07F35D62ACE143B00F73A1F /* PreferenceKeyBootcamp */,
 				D0F7D2BA2AD24C8F0039AE7B /* CustomTabBar */,
+				D09443552AD277F8000D2602 /* CustomNavBar */,
 				D0F4BDA32AB2627A00A99978 /* Assets.xcassets */,
 				D0F4BDA52AB2627A00A99978 /* Preview Content */,
 			);
@@ -147,6 +175,9 @@
 			dependencies = (
 			);
 			name = SwiftfulThinkingAdvanced;
+			packageProductDependencies = (
+				D09443592AD27853000D2602 /* NavigationBackport */,
+			);
 			productName = SwiftfulThinkingAdvanced;
 			productReference = D0F4BD9C2AB2627A00A99978 /* SwiftfulThinkingAdvanced.app */;
 			productType = "com.apple.product-type.application";
@@ -175,6 +206,9 @@
 				Base,
 			);
 			mainGroup = D0F4BD932AB2627A00A99978;
+			packageReferences = (
+				D09443582AD27853000D2602 /* XCRemoteSwiftPackageReference "NavigationBackport" */,
+			);
 			productRefGroup = D0F4BD9D2AB2627A00A99978 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -201,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09443572AD2780C000D2602 /* AppNavBarView.swift in Sources */,
 				D0F4BDB02AB26E9100A99978 /* ButtonStyleBootcamp.swift in Sources */,
 				D0F4BDAE2AB268AE00A99978 /* ViewModifierBootcamp.swift in Sources */,
 				D0F7D2BC2AD24CB20039AE7B /* AppTabBarView.swift in Sources */,
@@ -209,13 +244,18 @@
 				D0F4BDA02AB2627A00A99978 /* SwiftfulThinkingAdvancedApp.swift in Sources */,
 				D0A72DA62ABFBED000DAD8E9 /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				D0EC934B2ACA81EF00471DC0 /* ViewBuilderBootcamp.swift in Sources */,
+				D09443602AD283C1000D2602 /* CustomNavView.swift in Sources */,
+				D094435C2AD279E8000D2602 /* CustomNavBarView.swift in Sources */,
 				D0B0E5C82AC3C03500AB98E6 /* GenericsBootcamp.swift in Sources */,
 				D07F35D82ACE145700F73A1F /* GeometryPreferenceKeyBootcamp.swift in Sources */,
+				D09443622AD2859F000D2602 /* CustomNavLink.swift in Sources */,
+				D09443642AD28BFE000D2602 /* CustomNavBarPreferenceKeys.swift in Sources */,
 				D08477742AC0E63600F4C0F2 /* AnimationDataBootcamp.swift in Sources */,
 				D0A72DA82ABFC6A500DAD8E9 /* CustomShapesBootcamp.swift in Sources */,
 				D09443542AD25949000D2602 /* TabBarItem.swift in Sources */,
 				D09443502AD25260000D2602 /* CustomTabBarContainerView.swift in Sources */,
 				D07F35D52ACE054000F73A1F /* PreferenceKeyBootcamp.swift in Sources */,
+				D094435E2AD280D2000D2602 /* CustomNavBarContainerView.swift in Sources */,
 				D09443522AD255EF000D2602 /* TabBarItemsPreferenceKey.swift in Sources */,
 				D07F35DA2ACE187100F73A1F /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */,
 				D0A72DAA2ABFDA2C00DAD8E9 /* CustomCurvesBootcamp.swift in Sources */,
@@ -355,7 +395,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,7 +425,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -421,6 +461,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D09443582AD27853000D2602 /* XCRemoteSwiftPackageReference "NavigationBackport" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnpatrickmorgan/NavigationBackport";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D09443592AD27853000D2602 /* NavigationBackport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D09443582AD27853000D2602 /* XCRemoteSwiftPackageReference "NavigationBackport" */;
+			productName = NavigationBackport;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D0F4BD942AB2627A00A99978 /* Project object */;
 }

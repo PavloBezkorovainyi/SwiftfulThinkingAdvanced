@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import NavigationBackport
 
 struct ScrollViewOffsetPreferenceKey: PreferenceKey {
   
@@ -38,7 +39,7 @@ struct ScrollViewOffsetPreferenceKeyBootcamp: View {
   @State private var scrollViewOffset: CGFloat = 0
   
   var body: some View {
-    NavigationStack {
+    NBNavigationStack {
       ScrollView {
         VStack {
           titleLayer

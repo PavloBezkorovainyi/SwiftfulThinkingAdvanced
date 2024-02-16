@@ -6,13 +6,14 @@
 //
 
 import SwiftUI
+import NavigationBackport
 
 struct PreferenceKeyBootcamp: View {
   
   @State private var text: String = "Hello, world!"
   
   var body: some View {
-    NavigationStack {
+    NBNavigationStack {
       VStack {
         SecondaryScreen(text: text)
           .navigationTitle("Navigation Title")
