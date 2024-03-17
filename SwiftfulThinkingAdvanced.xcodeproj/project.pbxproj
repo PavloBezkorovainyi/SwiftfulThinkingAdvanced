@@ -27,6 +27,7 @@
 		D0A72DAA2ABFDA2C00DAD8E9 /* CustomCurvesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A72DA92ABFDA2C00DAD8E9 /* CustomCurvesBootcamp.swift */; };
 		D0B0E5C82AC3C03500AB98E6 /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0E5C72AC3C03500AB98E6 /* GenericsBootcamp.swift */; };
 		D0EC934B2ACA81EF00471DC0 /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EC934A2ACA81EF00471DC0 /* ViewBuilderBootcamp.swift */; };
+		D0F43B312BA7756100FF9B14 /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F43B302BA7756100FF9B14 /* ProtocolsBootcamp.swift */; };
 		D0F4BDA02AB2627A00A99978 /* SwiftfulThinkingAdvancedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4BD9F2AB2627A00A99978 /* SwiftfulThinkingAdvancedApp.swift */; };
 		D0F4BDA42AB2627A00A99978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F4BDA32AB2627A00A99978 /* Assets.xcassets */; };
 		D0F4BDA72AB2627A00A99978 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F4BDA62AB2627A00A99978 /* Preview Assets.xcassets */; };
@@ -57,6 +58,7 @@
 		D0A72DA92ABFDA2C00DAD8E9 /* CustomCurvesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesBootcamp.swift; sourceTree = "<group>"; };
 		D0B0E5C72AC3C03500AB98E6 /* GenericsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
 		D0EC934A2ACA81EF00471DC0 /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
+		D0F43B302BA7756100FF9B14 /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
 		D0F4BD9C2AB2627A00A99978 /* SwiftfulThinkingAdvanced.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingAdvanced.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F4BD9F2AB2627A00A99978 /* SwiftfulThinkingAdvancedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingAdvancedApp.swift; sourceTree = "<group>"; };
 		D0F4BDA32AB2627A00A99978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				D0F4BDA32AB2627A00A99978 /* Assets.xcassets */,
 				D0F4BDA52AB2627A00A99978 /* Preview Content */,
 				D041BD8F2B7F9B3900C00540 /* UiViewRepresentableBootcamp.swift */,
+				D0F43B302BA7756100FF9B14 /* ProtocolsBootcamp.swift */,
 			);
 			path = SwiftfulThinkingAdvanced;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				D0F7D2BC2AD24CB20039AE7B /* AppTabBarView.swift in Sources */,
 				D0F7D2BF2AD24DB40039AE7B /* CustomTabBarView.swift in Sources */,
 				D041BD902B7F9B3900C00540 /* UiViewRepresentableBootcamp.swift in Sources */,
+				D0F43B312BA7756100FF9B14 /* ProtocolsBootcamp.swift in Sources */,
 				D0F4BDB22AB28E0300A99978 /* AnyTransitionBootcamp.swift in Sources */,
 				D0F4BDA02AB2627A00A99978 /* SwiftfulThinkingAdvancedApp.swift in Sources */,
 				D0A72DA62ABFBED000DAD8E9 /* MatchedGeometryEffectBootcamp.swift in Sources */,
