@@ -9,9 +9,19 @@ import SwiftUI
 
 @main
 struct SwiftfulThinkingAdvancedApp: App {
+  
+  let currentUserIsSignedIn: Bool
+  
+  init() {
+//    let userIsSignedIn: Bool = CommandLine.arguments.contains("-UITest_startSignedIn")
+    let userIsSignedIn = ProcessInfo.processInfo.arguments.contains("-UITest_startSignedIn")
+//    let value = ProcessInfo.processInfo.environment["-UITest_startSignedIn2"]
+    self.currentUserIsSignedIn = userIsSignedIn
+  }
+  
   var body: some Scene {
     WindowGroup {
-      AppNavBarView()
+      UITestingBootcampView(currentUserIsSignedIn: currentUserIsSignedIn)
     }
   }
 }
