@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D041BD902B7F9B3900C00540 /* UiViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041BD8F2B7F9B3900C00540 /* UiViewRepresentableBootcamp.swift */; };
+		D04B967B2BB013BC00E2A2F5 /* AdvancedCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B967A2BB013BC00E2A2F5 /* AdvancedCombineBootcamp.swift */; };
 		D07F35D52ACE054000F73A1F /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F35D42ACE054000F73A1F /* PreferenceKeyBootcamp.swift */; };
 		D07F35D82ACE145700F73A1F /* GeometryPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F35D72ACE145700F73A1F /* GeometryPreferenceKeyBootcamp.swift */; };
 		D07F35DA2ACE187100F73A1F /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F35D92ACE187100F73A1F /* ScrollViewOffsetPreferenceKeyBootcamp.swift */; };
@@ -68,6 +69,7 @@
 
 /* Begin PBXFileReference section */
 		D041BD8F2B7F9B3900C00540 /* UiViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
+		D04B967A2BB013BC00E2A2F5 /* AdvancedCombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombineBootcamp.swift; sourceTree = "<group>"; };
 		D07F35D42ACE054000F73A1F /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		D07F35D72ACE145700F73A1F /* GeometryPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		D07F35D92ACE187100F73A1F /* ScrollViewOffsetPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 				D0F4BDA32AB2627A00A99978 /* Assets.xcassets */,
 				D0F4BDA52AB2627A00A99978 /* Preview Content */,
 				D041BD8F2B7F9B3900C00540 /* UiViewRepresentableBootcamp.swift */,
+				D04B967A2BB013BC00E2A2F5 /* AdvancedCombineBootcamp.swift */,
 				D0F43B302BA7756100FF9B14 /* ProtocolsBootcamp.swift */,
 			);
 			path = SwiftfulThinkingAdvanced;
@@ -403,6 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04B967B2BB013BC00E2A2F5 /* AdvancedCombineBootcamp.swift in Sources */,
 				D09443572AD2780C000D2602 /* AppNavBarView.swift in Sources */,
 				D0F4BDB02AB26E9100A99978 /* ButtonStyleBootcamp.swift in Sources */,
 				D0F9A8A82BAC885500E900C0 /* UITestingBootcampView.swift in Sources */,
