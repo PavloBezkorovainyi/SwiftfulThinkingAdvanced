@@ -70,7 +70,7 @@ final class NewMockDataService_Tests: XCTestCase {
         switch completion {
         case .finished:
           expectation.fulfill()
-        case .failure(let error):
+        case .failure:
           XCTFail()
         }
       } receiveValue: { returnedItems in

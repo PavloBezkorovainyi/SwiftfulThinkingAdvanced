@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D03A03DE2BCD9B7900AA1A24 /* FuturesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A03DD2BCD9B7900AA1A24 /* FuturesBootcamp.swift */; };
+		D03A03E12BCE8C4B00AA1A24 /* CloudKitUserBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A03E02BCE8C4B00AA1A24 /* CloudKitUserBootcamp.swift */; };
 		D041BD902B7F9B3900C00540 /* UiViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041BD8F2B7F9B3900C00540 /* UiViewRepresentableBootcamp.swift */; };
 		D04B967B2BB013BC00E2A2F5 /* AdvancedCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B967A2BB013BC00E2A2F5 /* AdvancedCombineBootcamp.swift */; };
 		D07F35D52ACE054000F73A1F /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07F35D42ACE054000F73A1F /* PreferenceKeyBootcamp.swift */; };
@@ -70,6 +71,8 @@
 
 /* Begin PBXFileReference section */
 		D03A03DD2BCD9B7900AA1A24 /* FuturesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesBootcamp.swift; sourceTree = "<group>"; };
+		D03A03E02BCE8C4B00AA1A24 /* CloudKitUserBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitUserBootcamp.swift; sourceTree = "<group>"; };
+		D03A03E22BCE8CB200AA1A24 /* SwiftfulThinkingAdvanced.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftfulThinkingAdvanced.entitlements; sourceTree = "<group>"; };
 		D041BD8F2B7F9B3900C00540 /* UiViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
 		D04B967A2BB013BC00E2A2F5 /* AdvancedCombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombineBootcamp.swift; sourceTree = "<group>"; };
 		D07F35D42ACE054000F73A1F /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
@@ -141,6 +144,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D03A03DF2BCE8C3400AA1A24 /* CloudKitBootcamps */ = {
+			isa = PBXGroup;
+			children = (
+				D03A03E02BCE8C4B00AA1A24 /* CloudKitUserBootcamp.swift */,
+			);
+			path = CloudKitBootcamps;
+			sourceTree = "<group>";
+		};
 		D07F35D62ACE143B00F73A1F /* PreferenceKeyBootcamp */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +218,7 @@
 		D0F4BD9E2AB2627A00A99978 /* SwiftfulThinkingAdvanced */ = {
 			isa = PBXGroup;
 			children = (
+				D03A03E22BCE8CB200AA1A24 /* SwiftfulThinkingAdvanced.entitlements */,
 				D0F4BD9F2AB2627A00A99978 /* SwiftfulThinkingAdvancedApp.swift */,
 				D0F4BDAD2AB268AE00A99978 /* ViewModifierBootcamp.swift */,
 				D0F4BDAF2AB26E9100A99978 /* ButtonStyleBootcamp.swift */,
@@ -229,6 +241,7 @@
 				D04B967A2BB013BC00E2A2F5 /* AdvancedCombineBootcamp.swift */,
 				D0F43B302BA7756100FF9B14 /* ProtocolsBootcamp.swift */,
 				D03A03DD2BCD9B7900AA1A24 /* FuturesBootcamp.swift */,
+				D03A03DF2BCE8C3400AA1A24 /* CloudKitBootcamps */,
 			);
 			path = SwiftfulThinkingAdvanced;
 			sourceTree = "<group>";
@@ -330,7 +343,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					D0F43B3C2BA8603000FF9B14 = {
 						CreatedOnToolsVersion = 15.2;
@@ -423,6 +436,7 @@
 				D0F4BDB22AB28E0300A99978 /* AnyTransitionBootcamp.swift in Sources */,
 				D0F4BDA02AB2627A00A99978 /* SwiftfulThinkingAdvancedApp.swift in Sources */,
 				D0A72DA62ABFBED000DAD8E9 /* MatchedGeometryEffectBootcamp.swift in Sources */,
+				D03A03E12BCE8C4B00AA1A24 /* CloudKitUserBootcamp.swift in Sources */,
 				D0EC934B2ACA81EF00471DC0 /* ViewBuilderBootcamp.swift in Sources */,
 				D09443602AD283C1000D2602 /* CustomNavView.swift in Sources */,
 				D094435C2AD279E8000D2602 /* CustomNavBarView.swift in Sources */,
@@ -522,6 +536,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -582,6 +597,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -637,6 +653,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftfulThinkingAdvanced/SwiftfulThinkingAdvanced.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulThinkingAdvanced/Preview Content\"";
@@ -667,6 +684,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftfulThinkingAdvanced/SwiftfulThinkingAdvanced.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulThinkingAdvanced/Preview Content\"";
