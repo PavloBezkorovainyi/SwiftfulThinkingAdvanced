@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D015EF7B2BD1247000F06F08 /* CloudKitCrudBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015EF7A2BD1247000F06F08 /* CloudKitCrudBootcamp.swift */; };
 		D03A03DE2BCD9B7900AA1A24 /* FuturesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A03DD2BCD9B7900AA1A24 /* FuturesBootcamp.swift */; };
 		D03A03E12BCE8C4B00AA1A24 /* CloudKitUserBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A03E02BCE8C4B00AA1A24 /* CloudKitUserBootcamp.swift */; };
 		D041BD902B7F9B3900C00540 /* UiViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041BD8F2B7F9B3900C00540 /* UiViewRepresentableBootcamp.swift */; };
@@ -70,6 +71,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D015EF7A2BD1247000F06F08 /* CloudKitCrudBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitCrudBootcamp.swift; sourceTree = "<group>"; };
 		D03A03DD2BCD9B7900AA1A24 /* FuturesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesBootcamp.swift; sourceTree = "<group>"; };
 		D03A03E02BCE8C4B00AA1A24 /* CloudKitUserBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitUserBootcamp.swift; sourceTree = "<group>"; };
 		D03A03E22BCE8CB200AA1A24 /* SwiftfulThinkingAdvanced.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftfulThinkingAdvanced.entitlements; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				D03A03E02BCE8C4B00AA1A24 /* CloudKitUserBootcamp.swift */,
+				D015EF7A2BD1247000F06F08 /* CloudKitCrudBootcamp.swift */,
 			);
 			path = CloudKitBootcamps;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				D0F9A8A82BAC885500E900C0 /* UITestingBootcampView.swift in Sources */,
 				D0F43B362BA84E4A00FF9B14 /* UnitTestingBootcampView.swift in Sources */,
 				D0F4BDAE2AB268AE00A99978 /* ViewModifierBootcamp.swift in Sources */,
+				D015EF7B2BD1247000F06F08 /* CloudKitCrudBootcamp.swift in Sources */,
 				D0F43B332BA7946C00FF9B14 /* DependencyInjectionBootcamp.swift in Sources */,
 				D0F7D2BC2AD24CB20039AE7B /* AppTabBarView.swift in Sources */,
 				D0F7D2BF2AD24DB40039AE7B /* CustomTabBarView.swift in Sources */,
