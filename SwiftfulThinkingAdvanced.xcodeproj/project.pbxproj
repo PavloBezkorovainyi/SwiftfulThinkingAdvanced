@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D015EF7B2BD1247000F06F08 /* CloudKitCrudBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015EF7A2BD1247000F06F08 /* CloudKitCrudBootcamp.swift */; };
+		D015EF7F2BD2CAC600F06F08 /* CloudKitPushNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015EF7E2BD2CAC600F06F08 /* CloudKitPushNotificationBootcamp.swift */; };
 		D03A03DE2BCD9B7900AA1A24 /* FuturesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A03DD2BCD9B7900AA1A24 /* FuturesBootcamp.swift */; };
 		D03A03E12BCE8C4B00AA1A24 /* CloudKitUserBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A03E02BCE8C4B00AA1A24 /* CloudKitUserBootcamp.swift */; };
 		D041BD902B7F9B3900C00540 /* UiViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041BD8F2B7F9B3900C00540 /* UiViewRepresentableBootcamp.swift */; };
@@ -72,6 +73,7 @@
 
 /* Begin PBXFileReference section */
 		D015EF7A2BD1247000F06F08 /* CloudKitCrudBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitCrudBootcamp.swift; sourceTree = "<group>"; };
+		D015EF7E2BD2CAC600F06F08 /* CloudKitPushNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitPushNotificationBootcamp.swift; sourceTree = "<group>"; };
 		D03A03DD2BCD9B7900AA1A24 /* FuturesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesBootcamp.swift; sourceTree = "<group>"; };
 		D03A03E02BCE8C4B00AA1A24 /* CloudKitUserBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitUserBootcamp.swift; sourceTree = "<group>"; };
 		D03A03E22BCE8CB200AA1A24 /* SwiftfulThinkingAdvanced.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftfulThinkingAdvanced.entitlements; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			children = (
 				D03A03E02BCE8C4B00AA1A24 /* CloudKitUserBootcamp.swift */,
 				D015EF7A2BD1247000F06F08 /* CloudKitCrudBootcamp.swift */,
+				D015EF7E2BD2CAC600F06F08 /* CloudKitPushNotificationBootcamp.swift */,
 			);
 			path = CloudKitBootcamps;
 			sourceTree = "<group>";
@@ -453,6 +456,7 @@
 				D09443542AD25949000D2602 /* TabBarItem.swift in Sources */,
 				D09443502AD25260000D2602 /* CustomTabBarContainerView.swift in Sources */,
 				D07F35D52ACE054000F73A1F /* PreferenceKeyBootcamp.swift in Sources */,
+				D015EF7F2BD2CAC600F06F08 /* CloudKitPushNotificationBootcamp.swift in Sources */,
 				D094435E2AD280D2000D2602 /* CustomNavBarContainerView.swift in Sources */,
 				D09443522AD255EF000D2602 /* TabBarItemsPreferenceKey.swift in Sources */,
 				D03A03DE2BCD9B7900AA1A24 /* FuturesBootcamp.swift in Sources */,
