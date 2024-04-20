@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D015EF7B2BD1247000F06F08 /* CloudKitCrudBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015EF7A2BD1247000F06F08 /* CloudKitCrudBootcamp.swift */; };
 		D015EF7F2BD2CAC600F06F08 /* CloudKitPushNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015EF7E2BD2CAC600F06F08 /* CloudKitPushNotificationBootcamp.swift */; };
+		D015EF832BD3C19100F06F08 /* CloudKitUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015EF822BD3C19100F06F08 /* CloudKitUtility.swift */; };
 		D03A03DE2BCD9B7900AA1A24 /* FuturesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A03DD2BCD9B7900AA1A24 /* FuturesBootcamp.swift */; };
 		D03A03E12BCE8C4B00AA1A24 /* CloudKitUserBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03A03E02BCE8C4B00AA1A24 /* CloudKitUserBootcamp.swift */; };
 		D041BD902B7F9B3900C00540 /* UiViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041BD8F2B7F9B3900C00540 /* UiViewRepresentableBootcamp.swift */; };
@@ -74,6 +75,7 @@
 /* Begin PBXFileReference section */
 		D015EF7A2BD1247000F06F08 /* CloudKitCrudBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitCrudBootcamp.swift; sourceTree = "<group>"; };
 		D015EF7E2BD2CAC600F06F08 /* CloudKitPushNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitPushNotificationBootcamp.swift; sourceTree = "<group>"; };
+		D015EF822BD3C19100F06F08 /* CloudKitUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitUtility.swift; sourceTree = "<group>"; };
 		D03A03DD2BCD9B7900AA1A24 /* FuturesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesBootcamp.swift; sourceTree = "<group>"; };
 		D03A03E02BCE8C4B00AA1A24 /* CloudKitUserBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitUserBootcamp.swift; sourceTree = "<group>"; };
 		D03A03E22BCE8CB200AA1A24 /* SwiftfulThinkingAdvanced.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftfulThinkingAdvanced.entitlements; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				D03A03E02BCE8C4B00AA1A24 /* CloudKitUserBootcamp.swift */,
 				D015EF7A2BD1247000F06F08 /* CloudKitCrudBootcamp.swift */,
 				D015EF7E2BD2CAC600F06F08 /* CloudKitPushNotificationBootcamp.swift */,
+				D015EF822BD3C19100F06F08 /* CloudKitUtility.swift */,
 			);
 			path = CloudKitBootcamps;
 			sourceTree = "<group>";
@@ -434,6 +437,7 @@
 				D0F9A8A82BAC885500E900C0 /* UITestingBootcampView.swift in Sources */,
 				D0F43B362BA84E4A00FF9B14 /* UnitTestingBootcampView.swift in Sources */,
 				D0F4BDAE2AB268AE00A99978 /* ViewModifierBootcamp.swift in Sources */,
+				D015EF832BD3C19100F06F08 /* CloudKitUtility.swift in Sources */,
 				D015EF7B2BD1247000F06F08 /* CloudKitCrudBootcamp.swift in Sources */,
 				D0F43B332BA7946C00FF9B14 /* DependencyInjectionBootcamp.swift in Sources */,
 				D0F7D2BC2AD24CB20039AE7B /* AppTabBarView.swift in Sources */,
@@ -591,7 +595,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -646,7 +650,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -673,7 +677,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -704,7 +708,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

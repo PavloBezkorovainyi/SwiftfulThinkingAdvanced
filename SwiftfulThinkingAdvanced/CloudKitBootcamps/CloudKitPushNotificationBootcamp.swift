@@ -6,59 +6,50 @@
 //
 
 import SwiftUI
-import CloudKit
+import Combine
 
 class CloudKitPushNotificationBootcampViewModel: ObservableObject {
+  private var canclellables = Set<AnyCancellable>()
   
   func requestNotificationPermissions() {
-    let options: UNAuthorizationOptions = [.alert, .sound, .badge]
-    UNUserNotificationCenter.current().requestAuthorization(options: options) { success, error in
-      if let error {
+    CloudKitUtility.requestApplicationPermission()
+      .receive(on: DispatchQueue.main)
+      .sink { error in
         print(error)
-      } else if success {
-        print("Notification permission success!")
+      } receiveValue: { success in
         DispatchQueue.main.async {
           UIApplication.shared.registerForRemoteNotifications()
         }
-      } else {
-        print("Notification permissions failure.")
       }
-    }
+      .store(in: &canclellables)
   }
   
   func subscribeToNotifications() {
-    let predicate = NSPredicate(value: true)
-    
-    let subscription = CKQuerySubscription(recordType: "Fruits", predicate: predicate, subscriptionID: "fruit_added_to_database", options: .firesOnRecordCreation)
-    
-    let notification = CKSubscription.NotificationInfo()
-    notification.title = "There is a new fruit!"
-    notification.alertBody = "Open the app to check your fruits."
-    notification.soundName = "default"
-    
-    
-    subscription.notificationInfo = notification
-    
-    CKContainer.default().publicCloudDatabase.save(subscription) { returnedSubscription, returnedError in
-      if let error = returnedError {
-        print(error)
-      } else {
-        print("Successfully subscribed to notifcations!")
-      }
+    CloudKitUtility.subscribeToNotifications(
+      recordType: "Fruits",
+      subscriptionID: "fruit_added_to_database",
+      options: .firesOnRecordCreation,
+      notificationTitle: "There is a new fruit!",
+      notificationAlertBody: "Open the app to check your fruits.")
+    .receive(on: DispatchQueue.main)
+    .sink { error in
+      print(error)
+    } receiveValue: { success in
+      print("Successfully subscribed to notifcations!")
     }
+    .store(in: &canclellables)
   }
   
   func unsubscribeToNotifictions() {
     
-//    CKContainer.default().publicCloudDatabase.fetchAllSubscriptions(completionHandler: )
-    
-    CKContainer.default().publicCloudDatabase.delete(withSubscriptionID: "fruit_added_to_database") { returnedID, returnedError in
-      if let error = returnedError {
+    CloudKitUtility.unsubscribeToNotifiction(with: "fruit_added_to_database")
+      .receive(on: DispatchQueue.main)
+      .sink { error in
         print(error)
-      } else {
+      } receiveValue: { success in
         print("Succesfully unsubscribed!")
       }
-    }
+      .store(in: &canclellables)
   }
 }
 
